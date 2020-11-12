@@ -5,6 +5,14 @@ body {
     font-family: "Merriweather Sans", sans-serif;
     background-color: pink;
   }
+hr {
+    border-color: gray; 
+    border-style: dotted none none; 
+    border-width: 10px; 
+    width: 5%; 
+    margin-top: 200px; 
+    margin-bottom: 200px;
+  }
   h1, p, h2 {
     display: block;
     font-family: 'Lobster', cursive;
