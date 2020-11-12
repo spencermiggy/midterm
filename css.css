@@ -25,7 +25,9 @@ body {
   }
   
   li {
-    float: left;
+    display: inline;
+    margin: 0 0 0 50px;
+    width: 100px;
   }
   
   li a, .dropbtn {
