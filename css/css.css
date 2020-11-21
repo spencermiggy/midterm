@@ -78,9 +78,19 @@ body {
   .dropdown:hover .dropdown-content {
     display: block;
   }
-  table {
+  .skills-1 {
     margin: auto;
     padding-left: 3cm; 
+    padding-right: 3cm;
+  }
+  .skills-2 {
+    margin: auto;
+    padding-left: 3cm; 
+    padding-right: 3cm;
+  }
+  .chan {
+    margin: auto;
+    padding-left: 3cm;
     padding-right: 3cm;
   }
   .bottom-container {
@@ -103,4 +113,12 @@ body {
   }
   .copyright {
     font-size: 70%;
+  }
+  .ChildProg {
+    height: 600px;
+    width: 800px;
+  }
+  .cloud {
+    width: 600px;
+    height: 100px;
   }
