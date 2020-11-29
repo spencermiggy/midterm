@@ -1,9 +1,10 @@
 body {
-    width: 977px;
+    width: 900px;
     margin: 0 auto;
     text-align: center;
     font-family: "Merriweather Sans", sans-serif;
-    background-color: pink;
+    background-color: #112;
+    color: #fff;
   }
   hr {
     border-color: gray;
@@ -16,6 +17,12 @@ body {
   h1, p, h2 {
     display: block;
     font-family: 'Lobster', cursive;
+  }
+  h1 {
+    font-style: normal;
+    font: 900px;
+    font-size: 3.5rem;
+    line-height: 1.5;
   }
   h3{
     text-align: center;
@@ -94,8 +101,9 @@ body {
     padding-right: 3cm;
   }
   .bottom-container {
+    margin: auto;
     text-align: center;
-    background-image: url(https://thumbs.gfycat.com/ExcellentCavernousHairstreakbutterfly-small.gif);
+    background-color: palevioletred;
     font-family: 'Lobster', cursive;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -133,4 +141,13 @@ body {
   top: 300px;
   width: 300px;
   height: 100px;
+  }
+  .okay {
+    text-align: center;
+    margin: auto;
+  }
+  @media (max-width: 1028px) {
+    .top-container {
+      text-align: center;
+    }
   }
