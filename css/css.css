@@ -6,9 +6,9 @@ body {
 }
 .styletit {
   margin-top: 0;
-  font-family: "Merriweather Sans", cursive;
-  font-size: 6rem;
-  color: whitesmoke;
+  font-family: "Montserrat";
+  font-size: 4rem;
+  color: white;
 }
 hr {
   border-style: dotted none none;
@@ -20,8 +20,8 @@ hr {
 }
 h2 {
   font-family: "Montserrat", sans-serif;
-  font-size: 1.5rem;
-  color: #FDC404;
+  font-size: 2rem;
+  color: skyblue;
 }
 h3 {
   font-family: "Montserrat", sans-serif;
@@ -53,7 +53,8 @@ p {
   margin-top: 100px;
 }
 .bottomcontainer{
-  background-color: #193549;
+  padding-top: 4%;
+  background-color: darkslateblue;
   margin-top: 300px;
 }
 .pro {
@@ -72,7 +73,9 @@ p {
   top: 300px;
 }
 .mountain {
-  opacity: 0.5;
+  padding-top: 7%;
+  width: 900px;
+  height: 500px;
 }
 .My-skills {
   width: 50%;
@@ -82,15 +85,9 @@ p {
   width: 50%;
   margin: 0 auto;
 }
-.getin-touch{
-  font-size: 3rem;
-}
 .btn {
-  -webkit-border-radius: 10;
-  -moz-border-radius: 10;
-  border-radius: 10px;
-  text-shadow: 3px 1px 4px #666666;
-  font-family: Arial;
+  border-radius: 25%;
+  font-family: 'Montserrat';
   color: #ffffff;
   font-size: 20px;
   background: #0088E2;
@@ -99,7 +96,8 @@ p {
 }
 
 .btn:hover {
-  background: #FF9D00;
+  color: #fff;
+  background: gray;
   text-decoration: none;
 }
 a{
@@ -110,7 +108,7 @@ a{
   text-decoration: none;
 }
 a:hover{
-  color: #FDC404;
+  color: gray;
 }
 .copyright{
   font-size: 0.70rem;
