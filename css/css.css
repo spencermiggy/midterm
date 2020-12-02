@@ -23,7 +23,7 @@ body {
   color: #fff;
 }
 hr {
-  border-style: dotted none none;
+  border-style: dashed none none;
   border-color: Gray;
   border-width: 10px;
   width: 5%;
@@ -46,17 +46,17 @@ p {
   font-size: 1rem;
   color: silver;
 }
-.skillslogo {
+.slogo {
   width: 200px;
 }
-.skills-1, .skills-2 {
+.skill, .skills {
   margin: 0 auto;
 }
 .skills_h {
   font-family: 'Nerko One', cursive;
   text-align: left;
 }
-.skills_p {
+.skillsss {
   font-family: 'Nerko One';
   text-align: left;
 }
@@ -95,7 +95,7 @@ p {
   width: 900px;
   height: 400px;
 }
-.My-skills {
+.talent {
   width: 50%;
   margin: 0 auto;
 }
