@@ -1,14 +1,26 @@
 body {
   margin: 0;
   text-align: center;
-  font-family: "Merriweather Sans", sans-serif;
-  background-color: #282a36;
+  font-family: "Nerko One";
+  background-color: darkslategrey;
 }
-.styletit {
+.greet {
+  font-family: 'Nerko One', cursive;
+}
+.intro {
+  font-family: 'Nerko One';
+}
+.name {
   margin-top: 0;
-  font-family: "Montserrat";
+  font-family: 'Nerko One', cursive;
   font-size: 4rem;
   color: white;
+}
+.mid {
+  margin-top: 0;
+  font-family: 'Nerko One', cursive;
+  font-size: 2.5rem;
+  color: #fff;
 }
 hr {
   border-style: dotted none none;
@@ -41,9 +53,11 @@ p {
   margin: 0 auto;
 }
 .skills_h {
+  font-family: 'Nerko One', cursive;
   text-align: left;
 }
 .skills_p {
+  font-family: 'Nerko One';
   text-align: left;
 }
 .topcontainer {
@@ -53,20 +67,24 @@ p {
   margin-top: 100px;
 }
 .bottomcontainer{
-  padding-top: 4%;
-  background-color: darkslateblue;
+  padding-top: 1.5%;
+  background-color: maroon;
   margin-top: 300px;
 }
 .pro {
   text-decoration: underline;
 }
-.cloud_2 {
+.cloud, .clouds {
+  width: 220px;
+  height: 100px;
+}
+.clouds {
   position: absolute;
   left: 300px;
   opacity: 0.6;
-  bottom: 300px;
+  bottom: 200px;
 }
-.cloud_1 {
+.cloud {
   position: absolute;
   right: 300px;
   opacity: 0.6;
@@ -75,30 +93,15 @@ p {
 .mountain {
   padding-top: 7%;
   width: 900px;
-  height: 500px;
+  height: 400px;
 }
 .My-skills {
   width: 50%;
   margin: 0 auto;
 }
-.Whatido{
+.do{
   width: 50%;
   margin: 0 auto;
-}
-.btn {
-  border-radius: 25%;
-  font-family: 'Montserrat';
-  color: #ffffff;
-  font-size: 20px;
-  background: #0088E2;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
-}
-
-.btn:hover {
-  color: #fff;
-  background: gray;
-  text-decoration: none;
 }
 a{
   color: #657986;
